@@ -2,7 +2,7 @@
 function willSuccess(marks) {
     let passMarkCounter = 0;
     let failMarkCounter = 0;
-    if (Array.isArray(marks) == false) {
+    if (Array.isArray(marks) === false) {
         return "Invalid";
     }
     for (let i = 0; i < marks.length; i++) {
