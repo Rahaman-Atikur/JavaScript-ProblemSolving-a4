@@ -1,6 +1,7 @@
-
+let person1 = {};
+let person2 =  { name: "mitu", gender: "male", age: 32 };
 function validProposal(person1, person2) {
-    if(typeof person1!=="object" ||typeof person2!=="object"){
+    if(typeof person1!=="object" ||typeof person2!=="object" || Array.isArray(person1,person2)){
         return "Invalid";
     }
     let ageDifference = Math.abs(person1['age'] - person2['age']);
@@ -14,4 +15,5 @@ function validProposal(person1, person2) {
         return false;
     }
 }
+console.log(validProposal(person1,person2));
 
