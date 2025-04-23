@@ -14,8 +14,10 @@ function calculateSleepTime(times) {
     for (let i = 0; i < times.length; i++) {
         totalSeconds = totalSeconds + times[i];
     }
-    console.log(totalSeconds / 3600);
-    console.log(totalSeconds / 60);
+    let hour = totalSeconds/3600;
+    let minutes = hour/60;
+    let seconds = minutes/60;
+    console.log( 'hour'+' '+hour+" "+'minutes'+" "+minutes+" "+'seconds'+" "+seconds);
 
 
 
