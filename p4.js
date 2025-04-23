@@ -1,5 +1,4 @@
-let person1 = { name: "milon", gender: "male", age: 28 };
-let person2 = { name: "bjoy", gender: "male", age: 32 };
+
 function validProposal(person1, person2) {
     if(typeof person1!=="object" ||typeof person2!=="object"){
         return "Invalid";
@@ -15,6 +14,4 @@ function validProposal(person1, person2) {
         return false;
     }
 }
-let result = validProposal(person1, person2);
-console.log(result);
 
