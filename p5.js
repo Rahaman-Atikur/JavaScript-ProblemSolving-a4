@@ -1,4 +1,3 @@
-
 function calculateSleepTime(times) {
     let totalSeconds = 0;
     for (let i = 0; i < times.length; i++) {
